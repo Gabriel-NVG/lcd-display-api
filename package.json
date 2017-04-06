@@ -1,0 +1,30 @@
+{
+  "name": "lcd-display-api",
+  "version": "0.1.0",
+  "description": "Display texts on a 16x2 I2C LCD via Python using HTTP requests on a Node.js server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-NVG/lcd-display-api.git"
+  },
+  "keywords": [
+    "lcd16x2",
+    "i2c",
+    "http-requests",
+    "nodejs",
+    "python"
+  ],
+  "author": "Gabriel Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-NVG/lcd-display-api/issues"
+  },
+  "homepage": "https://github.com/Gabriel-NVG/lcd-display-api#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
